@@ -4,6 +4,9 @@
   <a href="https://github.com/saitoeku3/ankipan/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" />
   </a>
+  <a href="https://www.npmjs.com/package/ankipan">
+    <img src="https://badge.fury.io/js/ankipan.svg" />
+  </a>
 </p>
 
 ## Requirements

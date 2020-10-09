@@ -1,0 +1,47 @@
+{
+  "name": "ankipan",
+  "version": "0.1.0",
+  "description": "A command line tool to save the full resources of any web page.",
+  "license": "MIT",
+  "bin": "bin/src/index.js",
+  "author": "Tadao Iseki <saitoeku3@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saitoeku3/ankipan"
+  },
+  "bugs": {
+    "url": "https://github.com/saitoeku3/ankipan/issues"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "cli"
+  ],
+  "scripts": {
+    "dev": "ts-node -P tsconfig.json src/index.ts",
+    "build": "tsc -b tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "eslint \"src/**/*.ts\" --fix"
+  },
+  "devDependencies": {
+    "@types/mime": "^2.0.3",
+    "@types/prettier": "^2.1.1",
+    "@types/puppeteer": "^3.0.2",
+    "@types/sleep": "0.0.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "commander": "^6.1.0",
+    "mime": "^2.4.6",
+    "puppeteer": "^5.3.1"
+  }
+}

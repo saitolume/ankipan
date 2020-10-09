@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "outDir": "bin",
+    "strict": true,
+    "target": "esnext",
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
+}

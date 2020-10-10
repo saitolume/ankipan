@@ -23,14 +23,14 @@ $ npm i -g ankipan
 
 ```bash
 $ ankipan https://github.com
-ankipan https://github.com
 github.com/index.html
 github.com/images/search-key-slash.svg
 github.com/images/modules/site/home/globe-700.jpg
 ...
-github.com/customer_stories/freakboy3742/hero.jpg
 github.com/customer_stories/yyx990803/hero.jpg
 github.com/customer_stories/kris-nova/hero.jpg
 github.com/customer_stories/jessfraz/hero.jpg
 ✨ Done!
+
+$ npx serve github.com # serve a saved web site
 ```

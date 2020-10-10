@@ -1,4 +1,4 @@
-<h1 align="center">🥐 ankipan</h1>
+<h1 align="center">🍞 ankipan</h1>
 <p align="center">A command line tool to save the full resources of any web page.</p>
 <p align="center">
   <a href="https://github.com/saitoeku3/ankipan/blob/master/LICENSE">

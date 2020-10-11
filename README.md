@@ -11,7 +11,7 @@
 
 ## Requirements
 
-- Node.js 10.x (LTS)
+- Node.js 10.12.0 (LTS)
 
 ## Installation
 
